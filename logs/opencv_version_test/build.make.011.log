@@ -1,0 +1,14 @@
+[35m[1mScanning dependencies of target opencv_version_test[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/opencv_version_test.dir/src/opencv_version_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/eh420/catkin_ws_opencv_version/devel/.private/opencv_version_test/lib/opencv_version_test/opencv_version_test[0m
+CMakeFiles/opencv_version_test.dir/src/opencv_version_test.cpp.o: In function `cv::String::~String()':
+opencv_version_test.cpp:(.text._ZN2cv6StringD2Ev[_ZN2cv6StringD5Ev]+0x14): undefined reference to `cv::String::deallocate()'
+CMakeFiles/opencv_version_test.dir/src/opencv_version_test.cpp.o: In function `cv::String::operator=(cv::String const&)':
+opencv_version_test.cpp:(.text._ZN2cv6StringaSERKS0_[_ZN2cv6StringaSERKS0_]+0x28): undefined reference to `cv::String::deallocate()'
+collect2: error: ld returned 1 exit status
+CMakeFiles/opencv_version_test.dir/build.make:113: recipe for target '/home/eh420/catkin_ws_opencv_version/devel/.private/opencv_version_test/lib/opencv_version_test/opencv_version_test' failed
+make[2]: *** [/home/eh420/catkin_ws_opencv_version/devel/.private/opencv_version_test/lib/opencv_version_test/opencv_version_test] Error 1
+CMakeFiles/Makefile2:707: recipe for target 'CMakeFiles/opencv_version_test.dir/all' failed
+make[1]: *** [CMakeFiles/opencv_version_test.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

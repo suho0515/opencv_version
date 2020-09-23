@@ -1,0 +1,39 @@
+/home/eh420/catkin_ws_opencv_version/src/opencv_version_test/src/opencv_version_test.cpp: In function ‘int parseCmdArgs(int, char**)’:
+/home/eh420/catkin_ws_opencv_version/src/opencv_version_test/src/opencv_version_test.cpp:284:35: error: ‘CHANNELS’ is not a member of ‘cv::detail::ExposureCompensator’
+                 expos_comp_type = ExposureCompensator::CHANNELS;
+                                   ^
+/home/eh420/catkin_ws_opencv_version/src/opencv_version_test/src/opencv_version_test.cpp:286:35: error: ‘CHANNELS_BLOCKS’ is not a member of ‘cv::detail::ExposureCompensator’
+                 expos_comp_type = ExposureCompensator::CHANNELS_BLOCKS;
+                                   ^
+/home/eh420/catkin_ws_opencv_version/src/opencv_version_test/src/opencv_version_test.cpp: In function ‘int main(int, char**)’:
+/home/eh420/catkin_ws_opencv_version/src/opencv_version_test/src/opencv_version_test.cpp:419:18: error: ‘SIFT’ has not been declared
+         finder = SIFT::create();
+                  ^
+/home/eh420/catkin_ws_opencv_version/src/opencv_version_test/src/opencv_version_test.cpp:433:27: error: ‘samples’ has not been declared
+         full_img = imread(samples::findFile(img_names[i]));
+                           ^
+/home/eh420/catkin_ws_opencv_version/src/opencv_version_test/src/opencv_version_test.cpp:461:54: error: ‘computeImageFeatures’ was not declared in this scope
+         computeImageFeatures(finder, img, features[i]);
+                                                      ^
+/home/eh420/catkin_ws_opencv_version/src/opencv_version_test/src/opencv_version_test.cpp:668:23: error: ‘class cv::detail::GainCompensator’ has no member named ‘setNrFeeds’
+         gcompensator->setNrFeeds(expos_comp_nr_feeds);
+                       ^
+/home/eh420/catkin_ws_opencv_version/src/opencv_version_test/src/opencv_version_test.cpp:670:22: error: ‘ChannelsCompensator’ does not name a type
+     if (dynamic_cast<ChannelsCompensator*>(compensator.get()))
+                      ^
+/home/eh420/catkin_ws_opencv_version/src/opencv_version_test/src/opencv_version_test.cpp:670:41: error: expected ‘>’ before ‘*’ token
+     if (dynamic_cast<ChannelsCompensator*>(compensator.get()))
+                                         ^
+/home/eh420/catkin_ws_opencv_version/src/opencv_version_test/src/opencv_version_test.cpp:670:41: error: expected ‘(’ before ‘*’ token
+/home/eh420/catkin_ws_opencv_version/src/opencv_version_test/src/opencv_version_test.cpp:670:42: error: expected primary-expression before ‘>’ token
+     if (dynamic_cast<ChannelsCompensator*>(compensator.get()))
+                                          ^
+/home/eh420/catkin_ws_opencv_version/src/opencv_version_test/src/opencv_version_test.cpp:671:5: error: expected ‘)’ before ‘{’ token
+     {
+     ^
+/home/eh420/catkin_ws_opencv_version/src/opencv_version_test/src/opencv_version_test.cpp:741:27: error: ‘samples’ has not been declared
+         full_img = imread(samples::findFile(img_names[img_idx]));
+                           ^
+make[2]: *** [CMakeFiles/opencv_version_test.dir/src/opencv_version_test.cpp.o] Error 1
+make[1]: *** [CMakeFiles/opencv_version_test.dir/all] Error 2
+make: *** [all] Error 2

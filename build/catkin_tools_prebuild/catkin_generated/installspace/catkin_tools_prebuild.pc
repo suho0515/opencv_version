@@ -1,0 +1,8 @@
+prefix=/home/eh420/catkin_ws_opencv_version/install
+
+Name: catkin_tools_prebuild
+Description: Description of catkin_tools_prebuild
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/eh420/catkin_ws_opencv_version/install/lib 
+Requires: 

@@ -1,0 +1,6 @@
+devel_space: /home/eh420/catkin_ws_opencv_version/devel
+install: false
+install_space: /home/eh420/catkin_ws_opencv_version/install
+profile: default
+source_space: /home/eh420/catkin_ws_opencv_version/src
+workspace: /home/eh420/catkin_ws_opencv_version

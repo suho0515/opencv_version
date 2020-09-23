@@ -1,0 +1,5 @@
+[01m[K/home/eh420/catkin_ws_opencv_version/src/opencv_version_test/src/opencv_version_test.cpp:1:21:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/opencv_version_test.dir/src/opencv_version_test.cpp.o] Error 1
+make[1]: *** [CMakeFiles/opencv_version_test.dir/all] Error 2
+make: *** [all] Error 2

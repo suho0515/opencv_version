@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target opencv_version_test[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/opencv_version_test.dir/src/opencv_version_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/eh420/catkin_ws_opencv_version/devel/.private/opencv_version_test/lib/opencv_version_test/opencv_version_test[0m
+[100%] Built target opencv_version_test

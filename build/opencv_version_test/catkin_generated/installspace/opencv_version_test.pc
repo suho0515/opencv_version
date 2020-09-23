@@ -1,0 +1,8 @@
+prefix=/home/eh420/catkin_ws_opencv_version/install
+
+Name: opencv_version_test
+Description: Description of opencv_version_test
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/eh420/catkin_ws_opencv_version/install/lib 
+Requires: roscpp cv_bridge

@@ -1,0 +1,4 @@
+Symlinking /home/eh420/catkin_ws_opencv_version/devel/share/opencv_version_test/cmake/opencv_version_testConfig-version.cmake
+Symlinking /home/eh420/catkin_ws_opencv_version/devel/share/opencv_version_test/cmake/opencv_version_testConfig.cmake
+Symlinking /home/eh420/catkin_ws_opencv_version/devel/lib/pkgconfig/opencv_version_test.pc
+Symlinking /home/eh420/catkin_ws_opencv_version/devel/lib/opencv_version_test/opencv_version_test
